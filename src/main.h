@@ -22,7 +22,8 @@ public:
 
     void _init();
 
-    void attempt_some_leakage(PoolByteArray);
+    void attempt_some_leakage(Array);
+    void other_leakage(Dictionary);
 };
 
 }

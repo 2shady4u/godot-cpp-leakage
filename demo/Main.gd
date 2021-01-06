@@ -9,4 +9,4 @@ func _ready():
 
 	leak = Leakage.new()
 
-	leak.attempt_some_leakage(tex_data)
+	leak.other_leakage({"data": tex_data})
