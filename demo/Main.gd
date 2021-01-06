@@ -9,4 +9,6 @@ func _ready():
 
 	leak = Leakage.new()
 
+	#var values = {"data": tex_data}.values()
+
 	leak.other_leakage({"data": tex_data})
